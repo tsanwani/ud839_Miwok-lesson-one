@@ -1,0 +1,32 @@
+Applications Memory Usage (kB):
+Uptime: 64036056 Realtime: 68449214
+
+** MEMINFO in pid 25579 [com.example.android.miwok] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap        0        0        0        0     3104     3089       14
+  Dalvik Heap     1140      952        0      508    14752     5226     9526
+ Dalvik Other     1130     1044        0     1268                           
+        Stack       68       68        0        0                           
+    Other dev        8        4        4        0                           
+     .so mmap      589      376       36     2488                           
+    .apk mmap      100        0        8        0                           
+    .ttf mmap       20        0        4        0                           
+    .dex mmap     1732       32     1412      304                           
+   Other mmap        5        4        0        0                           
+      Unknown     1317     1304        0      228                           
+        TOTAL     6109     3784     1464     4796    17856     8315     9540
+ 
+ Objects
+               Views:       18         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:        7        Proxy Binders:       17
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
